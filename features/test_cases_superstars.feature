@@ -1,10 +1,8 @@
-Feature: Gmail Login
+Feature: Superstars Login
 As a user
-I want to login into gmail using my Avenue Code account
+I want to login into Superstars using my Avenue Code account
 
-Scenario: Login into Gmail
-Given I am on Gmail website
-When I type my username
-And I type my password
-And I click on Submit
-Then I can see my email
+Scenario: Login into Superstars
+Given I am on SSHomepage
+When I login with my username and my password
+Then I can see my profile
